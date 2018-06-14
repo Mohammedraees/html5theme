@@ -20,7 +20,7 @@ body {
   border-top-left-radius:0;
   border-top-right-radius:0;
   border-bottom-left-radius:0; 
-  border-bottom-right-radius:100%;
+  border-bottom-right-radius:70%;
 }
 .topText{text-align: center;}
 .left{float: left;display:block; width:80%;}
@@ -30,13 +30,24 @@ body {
 .navigation li{padding:5px 0;text-align: center;}
 .navigation li a{text-transform: uppercase;color: #fff;border-left: 2px solid #fff;font-weight:bold; float:left;display:block;}
 .navigation li:first-child a{border:0;}
-ul.navbar-nav{background:#504297;padding:0 15px; border-radius: 30px;}
+ul.navbar-nav{background:#504297;padding:0 10px; border-radius: 30px;}
 .slider{margin:0 auto; display: block;background:#ccc;height:231px;
   border-top-left-radius:0;
   border-top-right-radius:0;
   border-bottom-left-radius:0; 
   border-bottom-right-radius:0;}
-.lfetbar{border-bottom:2px solid #504297;margin-bottom: 10rem}
+.lfetbar{border-bottom:2px solid #504297;margin-bottom: 1rem; padding:0;}
+.list{background:#f4f0f0;padding:0.5rem; border-radius:10px; margin-bottom:10px; }
+.topText{color:#504297; font-size:1rem;}
+.topText .topHeading{font-weight:bold;font-size:1.25rem;}
+.topText .topHeading span{font-size:1.50rem;} 
+.list .heading{color:#504297; text-align: center; border-bottom:2px solid #504297}
+.list ul{list-style: none; margin-left: 5px;}
+.listitem li{color:#504297;}
+.row{padding-bottom:1.5rem;}
+.content{ padding: 0 1rem;padding-right: 4.5rem; }
+.content h4{font-size: 1rem;text-align: center; background:#f4f0f0; border-radius: 10px; line-height: 25px; color: #504297; font-weight: bold;}
+.content p{font-size: 1rem;}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -53,7 +64,7 @@ ul.navbar-nav{background:#504297;padding:0 15px; border-radius: 30px;}
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 15rem;
-  background-color: #504297;
+  background-color: #f4f0f0;
 }
 .carousel-item > img {
   position: absolute;
